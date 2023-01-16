@@ -8,11 +8,36 @@ body {
 section {
 
     display: flex;
+    flex-direction: column;
+}
+
+sidebar {
+
+    margin: 10px;
+    background-color: aliceblue;
+    min-width: 200px;
+}
+
+.bar {
+    display: flex;
 }
 
 article:nth-of-type(2) {
 
     flex: 3;
+}
+
+.flexContainer {
+
+    display: flex;
+    background-color:rgb(178, 194, 143);    
+}
+
+.flexGrowContainer {
+
+    display: flex;
+    align-items: stretch;
+    background-color:rgb(209, 209, 126);
 }
 
 h1 {
